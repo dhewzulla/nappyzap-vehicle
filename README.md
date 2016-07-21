@@ -1,8 +1,8 @@
 # nappyzap-vehicle
 
-This is an start up project for creating JPA based restful (json) web services.
+This is a start-up project for creating a JPA based RESTful (json) web services.
 
-You can follow the following steps to run & test it, and then you can build your services on top of it.
+You can follow the following steps to run & test it, and then you can build your own services by looking the example codes.
 
 (1) Download the project:
     git clone git@github.com:dhewzulla/nappyzap-vehicle.git
@@ -27,8 +27,9 @@ In order to use the mysql database, you need to rename the file:
   src/main/application-mysql.properties 
 to 
   src/main/application.properties 
-and then you need to specify credentials how to connect to your database:
+and then you need to modify the content connect to your database:
 
 spring.datasource.url=jdbc:mysql://localhost/<your database>
 spring.datasource.username=<db-user-name>
 spring.datasource.password=<db-password?
+
